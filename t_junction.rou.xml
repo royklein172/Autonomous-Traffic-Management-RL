@@ -1,0 +1,7 @@
+<routes>
+    <vType id="car" accel="0.8" decel="4.5" sigma="0.5" length="5" minGap="2"/>
+    
+    <route id="r_from_bottom" edges="e2 e4"/> <route id="r_from_left"   edges="e1 e5"/> <route id="r_from_top"    edges="e0 e5"/> <flow id="bottom_flow" type="car" route="r_from_bottom" begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="left_flow"   type="car" route="r_from_left"   begin="0" end="3600" vehsPerHour="600"/>
+    <flow id="top_flow"    type="car" route="r_from_top"    begin="0" end="3600" vehsPerHour="600"/>
+</routes>
